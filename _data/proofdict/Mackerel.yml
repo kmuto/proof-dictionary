@@ -1,0 +1,20 @@
+id: 01GV75JHJ5WEXZW7TXY4V2SJ47
+description: servicename
+expected: Mackerel
+patterns:
+  - /m?ac?ke?re?l?/i
+allows:
+  - '{{COMBINATION_WORD}}'
+  - .mackerel.
+specs:
+  - from: mackereです
+    to: Mackerelです
+  - from: mackerel-agent
+    to: mackerel-agent
+  - from: mackerel-container-agent
+    to: mackerel-container-agent
+  - from: ackerel
+    to: Mackerel
+  - from: ja.mackerel.io/mackerel/
+    to: ja.mackerel.io/mackerel/
+tags: []
